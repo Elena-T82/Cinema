@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+.liste{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .liste img{
+        width:300px;
+        height: 400px;
+        border-radius: 10px;
+    }
+
+    .liste a:hover img{
+        width:350px;
+        height: 450px;
+        transition: .2s;
+    }
+
+    .liste a{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .liste img{
+        width:300px;
+        height: 400px;
+        transition: .2s;
+    }
+
+    .liste article{
+        margin: 10px;
+    }
+
+.titre{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}

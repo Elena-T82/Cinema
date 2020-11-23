@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+
+                <!-- Page défault -->
+
+<url>
+   <loc>http://www.movies-advices.fr/default.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/Aladdin2019.jpg</image:loc> <image:caption>Aladdin 2019</image:caption>
+     <image:title>Aladdin 2019</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/LeRoiLion2019.jpg</image:loc> <image:caption>Le roi lion 2019</image:caption>
+     <image:title>Le roi lion 2019</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/ReadyPlayerOne.jpg</image:loc>
+     <image:caption>Ready player one</image:caption>
+     <image:title>Ready player one</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/LaMomie1.jpg</image:loc> <image:caption>La momie 1</image:caption>
+     <image:title>La momie 1</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/GameOfThrones.jpg</image:loc>
+     <image:caption>Game Of Thrones</image:caption>
+     <image:title>Game Of Thrones</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/OnceUponATime.jpg</image:loc>
+     <image:caption>Once upon a time</image:caption>
+     <image:title>Once Upon a Time</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/TeenWolf.jpg</image:loc> <image:caption>Teen wolf</image:caption>
+     <image:title>Teen wolf</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/TheWalkingDead.jpg</image:loc>
+     <image:caption>The walking dead</image:caption>
+     <image:title>The walking dead</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/AladdinLeRoiLion.png</image:loc>
+     <image:caption>Aladdin et le roi lion</image:caption>
+     <image:title>Aladdin et le roi lion</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/AssassinsCreedOrigins.jpg</image:loc>
+     <image:caption>Assassin's creed origins</image:caption>
+     <image:title>Assassin's creed origins</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/DyingLight.jpg</image:loc>
+     <image:caption>Dying light</image:caption>
+     <image:title>Dying light</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/KingdomHearts3
+     .jpg</image:loc>
+     <image:caption>Kingdom hearts 3</image:caption>
+     <image:title>Kingdom hearts 3</image:title>
+   </image:image>
+</url>
+
+
+
+                      <!-- Page contact -->
+                      
+<url>
+   <loc>http://www.movies-advices.fr/contact.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Map.jpg</image:loc>
+     <image:caption>Map</image:caption>
+     <image:title>Map</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/IconeContactAdresse.jpg</image:loc>
+     <image:caption>Icone de contact adresse</image:caption>
+     <image:title>Icone de contact adresse</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/IconeContactMail.jpg</image:loc>
+     <image:captionIcone de contact mail></image:caption>
+     <image:title>Icone de contact mail</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/IconeContactTel.jpg</image:loc>
+     <image:caption>Icone de contact tel</image:caption>
+     <image:title>Icone de contact tel</image:title>
+   </image:image>
+</url>
+
+
+                <!-- Page de liste des films -->
+
+<url>
+   <loc>http://www.movies-advices.fr/listeFilms.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/Aladdin2019.jpg</image:loc>
+     <image:caption>Aladdin 2019</image:caption>
+     <image:title>Aladdin 2019</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/LeRoiLion2019.jpg</image:loc>
+     <image:caption>Le roi lion 2019</image:caption>
+     <image:title>Le roi lion 2019</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/Aladdin1992.jpg</image:loc>
+     <image:caption>Aladdin 1992</image:caption>
+     <image:title>Aladdin 1992</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/LaMomie1.jpg</image:loc>
+     <image:caption>La momie 1</image:caption>
+     <image:title>La momie 1</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/LaMomie2.jpg</image:loc>
+     <image:caption>La momie 2</image:caption>
+     <image:title>La momie 2</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/PrinceOfPersia.jpeg</image:loc>
+     <image:caption>Prince of Persia</image:caption>
+     <image:title>Prince of Persia</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/ReadyPlayerOne.jpg</image:loc>
+     <image:caption>Ready player one</image:caption>
+     <image:title>Ready player one</image:title>
+   </image:image>
+</url>
+
+
+                  <!-- Page de liste des jeux actuels -->
+
+<url>
+   <loc>http://www.movies-advices.fr/listeJeuxActuels.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/AladdinLeRoiLion.png</image:loc>
+     <image:caption>Aladdin et le roi lion</image:caption>
+     <image:title>Aladdin et le roi lion</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/AssassinsCreedOrigins.jpg</image:loc>
+     <image:caption>Assassin's creed origins</image:caption>
+     <image:title>Assassin's creed origins</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/DyingLight.jpg</image:loc>
+     <image:caption>Dying Light</image:caption>
+     <image:title>Dying Light</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/FarCry3.jpg</image:loc>
+     <image:caption>Farcry 3</image:caption>
+     <image:title>Farcry 3</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/GTA5.jpg</image:loc>
+     <image:caption>GTA 5</image:caption>
+     <image:title>GTA 5</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/Halo.jpg</image:loc>
+     <image:caption>Halo</image:caption>
+     <image:title>Halo</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/KingdomHearts3.png</image:loc>
+     <image:caption>Kingdom hearts 3</image:caption>
+     <image:title>Kingdom hearts 3</image:title>
+   </image:image>
+</url>
+
+
+
+                  <!-- Page de liste des jeux futur -->
+<url>
+   <loc>http://www.movies-advices.fr/listeJeuxFutur.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxFutur/DBZKakarot.jpg</image:loc>
+     <image:caption>DBZ Kakarot</image:caption>
+     <image:title>DBZ Kakarot</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxFutur/DyingLight2.jpg</image:loc>
+     <image:caption>Dying Light 2</image:caption>
+     <image:title>Dying Light 2</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxFutur/StarWarsJediFallenOrder.jpg</image:loc>
+     <image:caption>Star wars Jedi : Fallen order</image:caption>
+     <image:title>Star wars Jedi : Fallen order</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxFutur/TheLastOfUs2.jpg</image:loc>
+     <image:caption>The last of us 2</image:caption>
+     <image:title>The last of us 2</image:title>
+   </image:image>
+</url>
+
+
+
+                    <!-- Page de liste des saga -->
+<url>
+   <loc>http://www.movies-advices.fr/listeSaga.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/Alien.jpg</image:loc>
+     <image:caption>Alien</image:caption>
+     <image:title>Alien</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/HarryPotter.jpg</image:loc>
+     <image:caption>Harry Potter</image:caption>
+     <image:title>Harry Potter</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/LeHobbit.jpg</image:loc>
+     <image:caption>Le Hobbit</image:caption>
+     <image:title>Le Hobbit</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/LeSeigneurDesAnneaux.jpg</image:loc>
+     <image:caption>Le seigneur des anneaux</image:caption>
+     <image:title>Le seigneur des anneaux</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/PiratesDesCaraibes.jpg</image:loc>
+     <image:caption>Pirates des caraibes</image:caption>
+     <image:title>Pirates des caraibes</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/StarWars.jpg</image:loc>
+     <image:caption>star wars</image:caption>
+     <image:title>Star wars</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Saga/Transformers.jpg</image:loc>
+     <image:caption>Transformers</image:caption>
+     <image:title>Transformers</image:title>
+   </image:image>
+</url>
+
+
+
+                    <!-- Page de liste des séries -->
+<url>
+   <loc>http://www.movies-advices.fr/listeSeries.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/GameOfThrones.jpg</image:loc>
+     <image:caption>Game Of Thrones</image:caption>
+     <image:title>Game Of Thrones</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/OnceUponATime.jpg</image:loc>
+     <image:caption>Once Upon A Time</image:caption>
+     <image:title>Once Upon A Time</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/TeenWolf.jpg</image:loc>
+     <image:caption>Teen Wolf</image:caption>
+     <image:title>Teen Wolf</image:title>
+   </image:image>
+
+    <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Series/TheWalkingDead.jpg</image:loc>
+     <image:caption>The Walking Dead</image:caption>
+     <image:title>The Walking Dead</image:title>
+   </image:image>
+</url>
+
+
+
+
+
+<!-- Page détaillées du film Aladdin 2019 -->
+
+
+<url>
+   <loc>http://www.movies-advices.fr/PageInfo/InfoFilms/Aladdin1992.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/Aladdin2019.jpg</image:loc>
+     <image:caption>Aladdin 2019</image:caption>
+     <image:title>Aladdin 2019</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/Films/Aladdin1992.jpg</image:loc>
+     <image:caption>Aladdin 1992</image:caption>
+     <image:title>Aladdin 1992</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/AladdinLeRoiLion.png</image:loc>
+     <image:caption>Aladdin et le roi lion</image:caption>
+     <image:title>Aladdin et le roi lion</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Fonds/Films/Aladdin2019.jpg</image:loc>
+     <image:caption>Aladdin 2019</image:caption>
+     <image:title></image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Acteurs/MenaMassoud.jpg</image:loc>
+     <image:caption>Mena Massoud</image:caption>
+     <image:title>Mena Massoud</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Acteurs/NaomiScott.jpg</image:loc>
+     <image:caption>Naomi Scott</image:caption>
+     <image:title>Naomi Scott</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Acteurs/WillSmith.jpg</image:loc>
+     <image:caption>Will Smith</image:caption>
+     <image:title>Will Smith</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Acteurs/MarwanKenzari.jpg</image:loc>
+     <image:caption>Marwan Kenzari</image:caption>
+     <image:title>Marwan Kenzari</image:title>
+   </image:image>
+</url>
+
+
+
+<!-- Page détaillé du jeu vidéo futur dying light 2-->
+
+<url>
+   <loc>http://www.movies-advices.fr/PageInfo/InfoJeuxFutur/DyingLight2.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Fonds/JeuxFutur/DyingLight2.jpg</image:loc>
+     <image:caption>Dying Light 2 fonds</image:caption>
+     <image:title>Dying Light 2 fonds</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxFutur/DyingLight2.jpg</image:loc>
+     <image:caption>Dying Light 2 jaquette</image:caption>
+     <image:title>Dying Light 2 jaquette</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/DyingLight.jpg</image:loc>
+     <image:caption>Dying Light jaquette</image:caption>
+     <image:title>Dying Light jaquette</image:title>
+   </image:image>
+</url>
+
+
+<!-- Page détaillé du jeu vidéo actuel Halo -->
+
+
+<url>
+   <loc>http://www.movies-advices.fr/PageInfo/InfoJeuxActuels.html</loc>
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/logo.png</image:loc>
+     <image:caption>Logo du site</image:caption>
+     <image:title>Logo du site</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Jaquettes/JeuxActuels/Halo.jpg</image:loc>
+     <image:caption>Halo jaquette</image:caption>
+     <image:title>Halo jaquette</image:title>
+   </image:image>
+
+   <image:image>
+     <image:loc>http://www.movies-advices.fr/img/Fonds/JeuxActuels/Halo.jpg</image:loc>
+     <image:caption>Halo fonds</image:caption>
+     <image:title>Halo fonds</image:title>
+   </image:image>
+</url>
+
+</urlset>

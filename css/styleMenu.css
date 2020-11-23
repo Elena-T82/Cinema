@@ -1,0 +1,102 @@
+#logo{
+    position: relative;
+    top: -50px;
+    left: 40px;
+    width: 250px;
+}
+
+nav{
+    height: 20px;
+    background-color: #464646;
+    padding: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    float: right;
+    z-index: 5;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li:hover a{
+    border-bottom: 2px solid white;
+    font-weight: bold;
+}
+
+nav ul li a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.deroulant{
+    position: relative;
+}
+
+.deroulant:hover ul li a{
+    display: block;
+}
+
+.sous a{
+    display: none;
+}
+
+.sous{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    background-color: #6f6f6f;
+}
+
+.sous li:hover a{
+    background-color: teal;
+    transition: 0.4s;
+}
+
+
+/* Footer */
+
+#debutFooter{
+    height: 60px;
+    background-color: #262626;
+}
+
+footer{
+    margin-top: 300px;
+    height: 500px;
+    background-color: #212121;
+}
+
+footer #logo{
+    position: relative;
+    left: 410px;
+    top: 50px;
+}
+
+footer>p{
+    width: 300px;
+    height: 30px;
+    position: relative;
+    top: 50px;
+    left: 450px;
+    font-size: 14px;
+    color: #C7C7C7;
+}
+
+#copyright{
+    height: 80px;
+    background-color: #1C1C1C;
+    position: relative;
+    top: 22%;
+}
+
+#copyright p{
+    color: #C7C7C7;
+    text-align: center;
+    padding-top: 30px;
+}

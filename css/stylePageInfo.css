@@ -1,0 +1,268 @@
+#fond{
+    width: 100%;
+    height: 650px;
+    position: absolute; /* par rapport à la page */
+    top: 25px;
+    z-index: -1;
+}
+
+#LaBandeAnnonce{
+    display: none;
+    position: fixed;
+    top: 15%;
+    left: 18%;
+    z-index: 1;
+    border-style: none;
+}
+
+    #BtnBandeAnnonce{
+        position: relative;
+        outline: none;
+        left: 400px;
+        top: -130px;
+        background-color: rgb(216, 20, 20);
+        color: white;
+        border-style: none;
+        width: 200px;
+        height: 50px;
+        margin-left: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+
+    #BtnBandeAnnonce:hover{
+        background-color: rgb(151, 14, 14);
+        transition: 0.5s;
+    }
+
+    #BtnFermerBA{
+        outline: none;
+        color: red;
+        background-color: black;
+        width: 50px;
+        height: 50px;
+        display: none;
+        position: fixed;
+        right: 12%;
+        top: 15%;
+        border: 2px black solid;
+        cursor: pointer;
+    }
+
+#VideoGamePlay{
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+section[class="InfoBase"]{
+    margin: auto;
+    height: 410px;
+    width: 1200px;
+    margin-top: 50px;
+}
+
+#jaquette{
+    position: relative; /* par rapport à ma section */
+    left: 3%;
+    width:300px;
+    height: 400px;
+}
+
+h1{
+    color: white;
+    position: relative;
+    top: -56%;
+    left: 30%;
+    width: 900px;
+}
+
+.GenreFilm{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top: -51%;
+    left: 30%;
+    width: 350px;
+}
+
+.GenreJeu{
+    color: white;
+    font-size: 22px;
+    position: relative;
+    top: -48%;
+    left: 30%;
+    width: 350px;
+}
+
+.DescriptionBasique{
+    border-right: grey 2px dashed;
+    width: 300px;
+    position: relative;
+    left: 20.5%;
+}
+
+.DescriptionDetail{
+    position: relative;
+    left: 37%;
+    top: -360px;
+    width: 900px;
+    margin-left: 5px;
+}
+
+.DescriptionDetailJeu{
+    position: relative;
+    left: 37%;
+    top: -280px;
+    width: 900px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 23px;
+}
+
+#IconeSynopsis{
+    float: left;
+}
+
+h2[id="synopsis"]{
+    line-height: 53px;
+}
+
+h3{
+    display: inline;
+
+    font-size: 20px;
+    color: rgb(150, 148, 148);
+    font-weight: normal;
+}
+
+section[class="DescriptionBasique"] p{
+    display: inline;
+}
+
+section[class="DescriptionDetail"] p{
+    
+    line-height: 30px;
+}
+
+.source{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+section[class="DescriptionDetailJeu"] p{
+    
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.Acteur{
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 4px 2px 5px 5px rgba(0, 0, 0, 0.4);
+    justify-content: space-evenly;
+}
+
+.Acteur article{
+    width: 130px;
+}
+
+.Acteur img{
+    width: 130px;
+    height: 170px;
+    border-radius: 8px;
+    box-shadow: 4px 2px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.nomActeur{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nomActeur:visited{
+    text-decoration: none;
+}
+
+.Critique{
+    position: relative;
+    top: -320px;
+    left: 50px;
+    margin: auto;
+    width: 1200px;
+}
+
+.Critique h2{
+    text-align: center;
+}
+
+.Critique article p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+#TitreReference{
+    text-align: center;
+}
+
+.Reference{ 
+    background-color: black;
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    top: -100px;
+    justify-content: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.Reference p{
+    font-size: 20px;
+    line-height: 400px;
+}
+
+.Reference img{
+    width:200px;
+    height: 300px;
+    transition: 0.2s;
+    margin: 20px;
+    transition: .2s;
+}
+
+.Reference a:hover img{
+    width: 220px;
+    height: 310px;
+    transition: .2s;
+}
+
+.Reference a{
+    display: flex;
+    flex-direction: column;
+}
+
+.titre{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.titre:hover{
+    font-size: 20px;
+}

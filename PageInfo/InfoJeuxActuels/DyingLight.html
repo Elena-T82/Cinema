@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/styleMenu.css">
+    <link rel="stylesheet" href="../../css/stylePageInfo.css">
+    <link rel="stylesheet" href="../../css/styleFormulaireCritique.css">
+    <script src="../../js/PageMaitre.js"></script>
+    <script src="../../js/Formulaire.js"></script>
+    <title>MoviesAdvices - Jeux actuels :  Dying Light</title>
+</head>
+<body>
+    <header>
+        <script>
+            Menu("../../default.html", "../../listeFilms.html", "../../listeSaga.html", "../../listeSeries.html", "../../listeJeuxActuels.html", "../../listeJeuxFutur.html", "../../contact.html", "../../img/logo.png");
+        </script>
+    </header>
+
+    <img id="fond" src="../../img/Fonds/JeuxActuels/DyingLight.jpg" alt="DyingLight">
+
+    <section class="InfoBase">
+        <img id="jaquette" src="../../img/Jaquettes/JeuxActuels/DyingLight.jpg" alt="DyingLight">
+        
+        <h1>Dying Light</h1>
+        <p class="GenreJeu">Genre(s) : Action-RPG, Survival horror, Action-Aventure</p>
+    </section>
+
+    <section class="DescriptionBasique">
+        <h2>Description du Jeux</h2><br>
+        <h3>Editeur : </h3>
+            <p>Techland Publishing</p><br><br>
+        <h3>Date de sortie :</h3>
+            <p>27 janvier 2015</p><br><br>
+        <h3>Genre(s) : </h3>
+        <p>Action-RPG, Survival horror, Action-Aventure</p><br><br>
+        <h3>Plateforme</h3>
+        <p>PlayStation 4, XBox One, Microsoft Windows</p>
+    </section>
+
+    <section class="DescriptionDetailJeu">
+        <img id="IconeSynopsis" src="../../img/IconeSynopsis.JPG" alt="IconeSynopsis">
+        <h2 id="synopsis">Synopsis</h2>
+        <p>
+            Survivez dans une ville assiégée par un virus zombie ! Découvrez le dilemme qui vous attend dans votre mission secrète. La loyauté envers vos supérieurs se révélera-t-elle plus forte que le désir de sauver les survivants ? À vous de trancher...<br>
+            Explorez la ville avec une liberté sans précédent et imprégnez-vous de son atmosphère unique. Utilisez le parkour pour escalader n'importe quel bâtiment et atteindre les zones les plus isolées. <br>
+            Livrez des combats sanglants et découvrez d'innombrables possibilités pour affronter vos ennemis. Utilisez l'environnement ainsi que différents types d'armes et de capacités pour prendre l'avantage.<br>
+            Vivez le changement radical qui s'opère entre le jour et la nuit : de chasseur le jour, vous devenez chassé la nuit. Résistez ou fuyez sans demander votre reste.</p>
+
+            <p class="source">Source : <a href="https://store.steampowered.com/app/239140/Dying_Light/" target="blank">Steam - Dying Light</a></p>
+
+
+        <h2>Gameplay du jeu</h2>
+
+        <iframe id="VideoGamePlay" width="900" height="520" src="https://www.youtube.com/embed/p0nqexbrs9U" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+
+    <section class="Critique">
+
+        <h2>Notre critique</h2>
+
+        <article>
+            <p>Dying Light rejoint mes jeux terminés en long en large et en travers ! Et franchement, suite à mes dernières piètres expériences vidéoludiques, il est bon de voir des jeux avec du potentiel ! Alors certes, il est loin d’être parfait, mais il est tout de même très agréable à parcourir !</p>
+        </article>
+
+        <p class="source">Source : <a href="https://www.senscritique.com/jeuvideo/Dying_Light/critique/45923345" target="blank">Sens critique - Dying Light</a></p>
+
+
+        <h2>Laissez votre propre critique</h2>
+        <br><br>
+
+        <section class="PartieCritiqueClient">
+            <form id="FormCritiqueClient" autocomplete="off">
+                <input type="text" name="PseudoPersonne" id="PseudoPersonne" size="50" maxlength="20" placeholder="Pseudo" required><br><br>
+                <textarea name="Commentaire" id="Commentaire" cols="50" rows="5" placeholder="Votre commentaire..." required></textarea><br><br>
+                <input type="button" id="BtnEnvoieCritique" value="Partager la critique">
+            </form>
+
+            <article class="CritiqueClient">
+                <label id="Pseudo"></label><p id="Comment"></p>
+            </article>
+        </section>
+    </section>
+
+    <h2 id="TitreReference">Référence</h2><br>
+
+    <section class="Reference">
+        <article>
+            <a href="../InfoJeuxFutur/DyingLight2.html" class="titre"> <img src="../../img/Jaquettes/JeuxFutur/DyingLight2.jpg" alt="DyingLight2">Dying Light 2 (jeux à venir)</a>
+        </article>
+    </section>
+
+    <footer>
+        <script>
+            PiedDePage("../../img/logo.png");    
+        </script>
+    </footer>
+</body>
+</html>

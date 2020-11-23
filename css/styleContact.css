@@ -1,0 +1,79 @@
+:focus{
+    outline: none;
+    transition: 1s;
+}
+
+#map{
+    margin-left: 17%;
+    margin-bottom: 90px;
+}
+
+#InfoContact{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+form p{
+    text-align: center;
+}
+
+form{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+input{
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: grey 1px solid;
+}
+
+input:focus{
+    border: green 1px solid;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 12px;
+    border: grey 1px solid;
+}
+
+textarea:focus{
+    border: 1px green solid;
+}
+
+input[type="submit"]{
+    width: 20%;
+    text-align: center;    
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 12px;
+    border: grey 1px solid;
+    background-color: white;
+    color: tomato;
+}
+
+input[type="submit"]:hover{
+    background-color: tomato;
+    color: white;
+    transition: 1s;
+}
+
+#flexInput{
+    display: flex;
+    justify-content: center;
+}

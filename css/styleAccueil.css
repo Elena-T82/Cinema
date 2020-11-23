@@ -1,0 +1,70 @@
+h1{
+    position: relative;
+    top: -70px;
+    margin-bottom: 20px;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+section[class="descriptionSite"]{
+    margin: auto;
+    width: 1300px;
+    margin-bottom: 50px;
+}
+
+p{
+    line-height: 30px;
+    text-align: justify;
+}
+
+ul{
+    line-height: 30px;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.Actu{
+    background-color: rgb(29, 28, 28);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Actu img{
+    width:300px;
+    height: 400px;
+    transition: 0.2s;
+}
+
+.Actu a{
+    display: flex;
+    flex-direction: column;
+}
+
+.Actu a:hover img{
+    width: 320px;
+    height: 410px;
+}
+
+.titre{
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.titre:hover{
+    font-size: 28px;
+    transition: 0.2s;
+}

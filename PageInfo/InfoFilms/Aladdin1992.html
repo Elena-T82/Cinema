@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/styleMenu.css">
+    <link rel="stylesheet" href="../../css/stylePageInfo.css">
+    <link rel="stylesheet" href="../../css/styleFormulaireCritique.css">
+    <script src="../../js/PageMaitre.js"></script>
+    <script src="../../js/BoutonBandeAnnonce.js"></script>
+    <script src="../../js/Formulaire.js"></script>
+    <title>MoviesAdvices - Film : Aladdin 1992</title>
+</head>
+<body>
+    <header>
+        <script>
+            Menu("../../default.html", "../../listeFilms.html", "../../listeSaga.html", "../../listeSeries.html", "../../listeJeuxActuels.html", "../../listeJeuxFutur.html", "../../contact.html", "../../img/logo.png");
+        </script>
+    </header>
+
+    <img id="fond" src="../../img/Fonds/Films/Aladdin1992.jpg" alt="Aladdin1992">
+
+    
+    <input id="BtnFermerBA" type="submit" value="X" onclick="fermerBandeAnnonce()">   
+    <iframe id="LaBandeAnnonce" width="1280" height="720" src="https://www.youtube.com/embed/ifLnhZoC7t4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <section class="InfoBase">
+        <img id="jaquette" src="../../img/Jaquettes/Films/Aladdin1992.jpg" alt="Aladdin1992">
+        <input id="BtnBandeAnnonce" type="submit" value="Bande Annonce" onclick="ouvrirBandeAnnonce()">
+        
+        <h1>Aladdin 1992</h1>
+        <p class="GenreFilm">Genre(s) : Aventure, Comédie</p>
+    </section>
+
+    <section class="DescriptionBasique">
+        <h2>Description du film</h2><br>
+        <h3>Réalisateur : </h3>
+            <p>Ron Cléments</p><br><br>
+        <h3>Acteurs principaux :</h3>
+            <p>Paolo Domingo, Magali Barney, Richard Darbois, Féodor Atkine</p><br><br>
+        <h3>Date de sortie :</h3>
+            <p>25 novembre 1992</p><br><br>
+        <h3>Nombre de film :</h3>
+            <p>1 film live, 3 films d'animations</p><br><br>
+        <h3>Genre(s) : </h3>
+        <p>Aventure, Comédie</p>
+    </section>
+
+    <section class="DescriptionDetail">
+        <img id="IconeSynopsis" src="../../img/IconeSynopsis.JPG" alt="IconeSynopsis">
+        <h2 id="synopsis">Synopsis</h2>
+        <p>Comment Aladdin, grâce à la felonie du grand vizir Jafar, va se procurer la lampe magique qui héberge le fameux génie et nous entraïner dans la plus étonnante des aventures.</p>
+
+        <p class="source">Source : <a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=8640.html" target="blank">Allociné - Aladdin 1992</a></p>
+
+    <h2>Acteurs/Personnages principaux du film</h2>
+
+        <section class="Acteur">
+            <article>
+                <a href="https://fr.wikipedia.org/wiki/Paolo_Domingo" target="blank" class="nomActeur"><img src="../../img/Acteurs/PaoloDomingo.jpg" alt="PaoloDomingo">Paolo Domingo / Aladdin</a>
+            </article>
+            <article>
+                <a href="https://fr.wikipedia.org/wiki/Magali_Barney" target="blank" class="nomActeur"><img src="../../img/Acteurs/MagaliBarney.jpg" alt="MagaliBarney">Magali Barney / Jasmine</a>
+            </article>
+            <article>
+                <a href="https://fr.wikipedia.org/wiki/Richard_Darbois" target="blank" class="nomActeur"> <img src="../../img/Acteurs/RichardDarbois.jpg" alt="RichardDarbois">Richard Darbois / Le génie</a>
+            </article>
+            <article>
+                <a href="https://fr.wikipedia.org/wiki/Féodor_Atkine" target="blank" class="nomActeur"> <img src="../../img/Acteurs/FeodorAtkine.jpg" alt="FéodorAtkine">Féodor Atkine / Jafar</a>
+            </article>
+        </section>
+    </section>
+
+    <section class="Critique">
+
+        <h2>Notre critique</h2>
+
+        <article>
+            <p>Tout juste sortis du succès encore frais de La Petite Sirène, les animateurs John Musker et Ron Clements, nouveaux visages de Disney pour les trois décennies à venir, reprennent du service dans cette libre adaptation d’un récit des Mille et une nuits, et le moins qu’on puisse dire, c’est qu’ils se sont donnés les moyens de réussir. En effet, bien plus qu’une Petite Sirène encore timide, et même davantage que le pourtant déjà magnifique La Belle et la bête, Aladdin est une splendeur de tous les instants. Gommant toutes les légères imperfections qui subsistaient dans les films précédents, le film de Musker et Clements nous prouve cette fois-ci totalement que l’informatisation de certaines étapes de l’animation du film n’entache en rien la beauté visuelle de l’ensemble. Si la caverne magique en synthèse a tout de même pris un léger coup de vieux, les décors donnent au film toute son ampleur par leur magnificence, tandis que le design des personnages s’intègre parfaitement à ceux-ci, en faisant cette fois totalement oublier la nostalgie des crayonnés que l’on était susceptible de ressentir devant les dernières œuvres du studio.</p>
+        </article>
+
+        <p class="source">Source : <a href="https://www.senscritique.com/film/Aladdin/critique/83627459" target="blank">Sens critique - Aladdin 1992</a></p>
+
+
+        <h2>Laissez votre propre critique</h2>
+        <br><br>
+
+        <section class="PartieCritiqueClient">
+            <form id="FormCritiqueClient" autocomplete="off">
+                <input type="text" name="PseudoPersonne" id="PseudoPersonne" size="50" maxlength="20" placeholder="Pseudo" required><br><br>
+                <textarea name="Commentaire" id="Commentaire" cols="50" rows="5" placeholder="Votre commentaire..." required></textarea><br><br>
+                <input type="button" id="BtnEnvoieCritique" value="Partager la critique">
+            </form>
+
+            <article class="CritiqueClient">
+                <label id="Pseudo"></label><p id="Comment"></p>
+            </article>
+        </section>
+    </section>
+
+    <h2 id="TitreReference">Référence</h2><br>
+
+    <section class="Reference">
+        <article>
+            <a href="Aladdin2019.html" class="titre"><img src="../../img/Jaquettes/Films/Aladdin2019.jpg" alt="Aladdin2019">Aladdin 2019 (film)</a>
+        </article>
+    
+        <article>
+            <a href="../InfoJeuxActuels/AladdinLeRoiLion.html" class="titre"><img src="../../img/Jaquettes/JeuxActuels/AladdinLeRoiLion.png" alt="AladdinLeRoiLion">Aladdin et Le roi lion (jeux)</a>
+        </article>
+    </section>
+
+    <footer>
+        <script>
+            PiedDePage("../../img/logo.png");    
+        </script>
+    </footer>
+</body>
+</html>

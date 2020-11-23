@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/styleMenu.css">
+    <link rel="stylesheet" href="../../css/stylePageInfo.css">
+    <link rel="stylesheet" href="../../css/styleFormulaireCritique.css">
+    <script src="../../js/PageMaitre.js"></script>
+    <script src="../../js/BoutonBandeAnnonce.js"></script>
+    <script src="../../js/Formulaire.js"></script>
+    <title>MoviesAdvices - Saga : Aliens </title>
+</head>
+<body>
+    <header>
+        <script>
+            Menu("../../default.html", "../../listeFilms.html", "../../listeSaga.html", "../../listeSeries.html", "../../listeJeuxActuels.html", "../../listeJeuxFutur.html", "../../contact.html", "../../img/logo.png");
+        </script>
+    </header>
+
+    <img id="fond" src="../../img/Fonds/Saga/Alien.jpg" alt="Alien">
+
+    
+    <input id="BtnFermerBA" type="submit" value="X" onclick="fermerBandeAnnonce()">   
+    <iframe id="LaBandeAnnonce" width="1280" height="720" src="https://www.youtube.com/embed/o_rfh8wBnGE" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <section class="InfoBase">
+        <img id="jaquette" src="../../img/Jaquettes/Saga/Alien.jpg" alt="Alien">
+        <input id="BtnBandeAnnonce" type="submit" value="Bande Annonce" onclick="ouvrirBandeAnnonce()">
+        
+        <h1>Alien Covenant</h1>
+        <p class="GenreFilm">Genre(s) : Horreur, Science-fiction</p>
+    </section>
+
+    <section class="DescriptionBasique">
+        <h2>Description du film</h2><br>
+        <h3>Réalisateur : </h3>
+            <p>Ridley Scott</p><br><br>
+        <h3>Acteurs principaux :</h3>
+            <p>Sigourney Weaver, Lance Henriksen, Charles Dance, Ron Perlman</p><br><br>
+        <h3>Date de sortie :</h3>
+            <p>25 mai 1979</p><br><br>
+        <h3>Nombre de film :</h3>
+            <p>6 (Saga Aliens + 2 suites)</p><br><br>
+        <h3>Genre(s) : </h3>
+        <p>Horreur, Science-fiction</p>
+    </section>
+
+    <section class="DescriptionDetail">
+        <img id="IconeSynopsis" src="../../img/IconeSynopsis.JPG" alt="IconeSynopsis">
+        <h2 id="synopsis">Synopsis</h2>
+        <p>Les membres d’équipage du vaisseau Covenant, à destination d’une planète située au fin fond de notre galaxie, découvrent ce qu’ils pensent être un paradis encore intouché. Il s’agit en fait d’un monde sombre et dangereux, cachant une menace terrible. Ils vont tout tenter pour s’échapper.</p>
+
+        <p class="source">Source : <a href="http://www.allocine.fr/film/fichefilm_gen_cfilm=208314.html" target="blank">Allociné - Aliens </a></p>
+
+
+    <h2>Acteurs/Personnages principaux du film</h2>
+
+    <section class="Acteur">
+        <article>
+            <a href="https://fr.wikipedia.org/wiki/Sigourney_Weaver" target="blank" class="nomActeur"><img src="../../img/Acteurs/SigourneyWeaver.jpg" alt="SigourneyWeaver"> Sigourney Weaver / Ellen Ripley</a>
+        </article>
+        <article>
+            <a href="https://fr.wikipedia.org/wiki/Lance_Henriksen" target="blank" class="nomActeur"><img src="../../img/Acteurs/LanceHenriksen.jpg" alt="LanceHenriksen"> Lance Henriksen / Bishop</a>
+        </article>
+        <article>
+            <a href="https://fr.wikipedia.org/wiki/Charles_Dance" target="blank" class="nomActeur"> <img src="../../img/Acteurs/CharlesDance.jpg" alt="CharlesDance"> Charles Dance / Clemens</a>
+        </article>
+        <article>
+            <a href="https://fr.wikipedia.org/wiki/Ron_Perlman" target="blank" class="nomActeur"> <img src="../../img/Acteurs/RonPerlman.jpg" alt="RonPerlman">Ron Perlman / Johner</a>
+        </article>
+        <article>
+            <a href="https://fr.wikipedia.org/wiki/Michael_Fassbender" target="blank" class="nomActeur"> <img src="../../img/Acteurs/MichaelFassbender.jpg" alt="MichaelFassbender"> Michael Fassbender / David</a>
+        </article>
+    </section>
+    </section>
+
+    <section class="Critique">
+
+        <h2>Notre critique</h2>
+
+        <article>
+            <p>L’excellente première partie du film donne envie d’y croire jusqu’à la scène de confrontation entre deux xénomorphes et l’équipage de la navette d’exploration. La suite, après l’arrivée d’un invité mystère, tend à se perdre dans une frénésie tant sur le fond que la forme. Pour le fond, le questionnement universel sur son origine et la volonté d’accéder au statut de créateur sont des thèmes trop ardus à aborder pour les inclure dans une trame scénaristique dont la finalité recherchée semble être la simplicité. Pour la forme, la mise en scène de Scott ne laisse aucun temps mort, n’hésitant pas à tomber dans une surenchère de gore et de violence. On ne peut toutefois pas enlever à Alien : Covenant sa beauté plastique. Une beauté ténébreuse qui ne laisse pas de place à l’espoir.</p>
+        </article>
+
+        <p class="source">Source : <a href="https://www.senscritique.com/film/Alien_Covenant/critique/121643737" target="blank">Sens critique - Aliens </a></p>
+
+
+        <h2>Laissez votre propre critique</h2>
+        <br><br>
+
+        <section class="PartieCritiqueClient">
+            <form id="FormCritiqueClient" autocomplete="off">
+                <input type="text" name="PseudoPersonne" id="PseudoPersonne" size="50" maxlength="20" placeholder="Pseudo" required><br><br>
+                <textarea name="Commentaire" id="Commentaire" cols="50" rows="5" placeholder="Votre commentaire..." required></textarea><br><br>
+                <input type="button" id="BtnEnvoieCritique" value="Partager la critique">
+            </form>
+
+            <article class="CritiqueClient">
+                <label id="Pseudo"></label><p id="Comment"></p>
+            </article>
+        </section>
+    </section>
+
+    <h2 id="TitreReference">Référence</h2><br>
+
+    <section class="Reference">
+        <p>Il n'y a aucune référence pour ce produit</p>
+    </section>
+
+    <footer>
+        <script>
+            PiedDePage("../../img/logo.png");    
+        </script>
+    </footer>
+</body>
+</html>
